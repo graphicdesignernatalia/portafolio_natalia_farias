@@ -1099,10 +1099,13 @@ section,
 }
 
 .testimonials .testimonial-item {
-  box-sizing: content-box;
+  box-sizing: border-box;
   text-align: center;
   min-height: 350px; /* Asegura que haya suficiente altura */
-}
+  height: auto; /* Ajuste automático si el contenido es mayor */
+  
+  }
+  
 
 
 .testimonials .testimonial-item .testimonial-img {
