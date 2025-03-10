@@ -650,11 +650,14 @@ section,
   background-attachment: fixed;
   background-size: 960px auto; /* Asegúrate de que el tamaño sea suficiente para el movimiento */
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; /* Prefijo para WebKit */
+  background-clip: text; /* Estándar */
   color: transparent;
   font-weight: bold;
   margin: 0;
 }
+
+
 
 .title-hero .line1, .title-hero .line2, .title-hero .line3 {
   display: block;
@@ -1464,12 +1467,12 @@ section,
 }
 
 
-/*--------------------------------------------------------------
+/* /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
+/* .starter-section { */
   /* Add your styles here */
-}
+/* } */ */
 
 
 /*--------------------------------------------------------------
