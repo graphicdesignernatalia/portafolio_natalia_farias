@@ -765,6 +765,53 @@ section,
   font-size: 14px;
 }
 
+
+/*--------------------------------------------------------------
+# conocimientos logo Section
+--------------------------------------------------------------*/
+
+
+/* Contenedor de los íconos */
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px; /* Espacio entre los íconos */
+  margin-top: 20px;
+}
+
+/* Estilo general de los íconos */
+.tech-icons i {
+  font-size: 90px; /* Tamaño adecuado para los íconos */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Colores específicos para cada ícono */
+.tech-icons .photoshop {
+  color: #31a8ff; /* Color azul de Photoshop */
+}
+
+.tech-icons .illustrator {
+  color: #ff9a00; /* Color naranja de Illustrator */
+}
+
+.tech-icons .indesign {
+  color: #e2001a; /* Color rojo de InDesign */
+}
+
+/* Efectos al pasar el ratón sobre los íconos */
+.tech-icons i:hover {
+  transform: scale(1.2); /* Aumenta el tamaño */
+  filter: brightness(1.2); /* Brillo al pasar el ratón */
+}
+
+/* Efecto cuando se hace clic */
+.tech-icons i:active {
+  transform: scale(0.9); /* Reducción de tamaño al hacer clic */
+}
+
+
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
